@@ -1,8 +1,7 @@
-import base.IO.log.Log;
 import base.IO.log.PrintLogcat;
-import cmd.ImplCmdTranslator;
 import core.VisntoolCore;
 import core.installException;
+import visual.MainWindow;
 
 /**
  * Created by zyvis on 2017/7/21.
@@ -16,6 +15,7 @@ public class main {
             e.printStackTrace();
         }
 
+        new MainWindow();
 
 //        ImplCmdTranslator implCmdTranslator=new ImplCmdTranslator();
 //        SocketThread socketThread=new SocketThread(10086);
@@ -24,7 +24,8 @@ public class main {
 //        for(;;){
 //            try {
 //                Thread.sleep(1000);
-//                implCmdTranslator.getData(socketThread.fetch());
+//                Log.i(implCmdTranslator.getData(socketThread.fetch()).toString());
+//
 //            } catch (InterruptedException e) {
 //                e.printStackTrace();
 //            } catch (NullPointerException e){

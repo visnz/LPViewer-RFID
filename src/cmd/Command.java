@@ -26,7 +26,7 @@ public class Command {
     }
     public static final Command NULL = new Command(null);
     public static final String SETACTOR="setactor";
-    public static final String SETTAG="setactor";
+    public static final String SETTAG="settag";
     public static final String WAIT="wait";
     public static final String END="end";
     public static final String CLEAR="clear";
@@ -36,7 +36,7 @@ public class Command {
      */
     private String action;
     private Parameter parameter;
-    private int param_single;
+    private Integer param_single;
     private Point param_pair;
     private String param_string;
     private Object param_others;
@@ -46,7 +46,7 @@ public class Command {
         parameter=Parameter.None;
     }
 
-    public Command(String action, int param_single){
+    public Command(String action, Integer param_single){
         this.action = action;
         this.param_single=param_single;
         parameter=Parameter.Single;
@@ -68,5 +68,16 @@ public class Command {
         this.action = action;
         this.param_others = param_others;
         parameter=Parameter.Others;
+    }
+
+    @Override
+    public String toString() {
+        return "Command{" +
+                "action='" + action + '\'' +
+                (param_single==null?"":(", param_single=" + param_single)) +
+                (param_pair==null?"":(", param_pair=" + param_pair)) +
+                (param_string==null?"":(", param_string='" + param_string + '\'')) +
+                (param_others==null?"":(", param_others=" + param_others)) +
+                '}';
     }
 }

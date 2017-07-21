@@ -1,5 +1,7 @@
 package cmd;
 
+import base.IO.log.Log;
+
 import java.awt.*;
 
 /**
@@ -12,6 +14,7 @@ import java.awt.*;
 public class ImplCmdTranslator implements CommandTransable{
     @Override
     public Command getData(String originCommand) {
+        try{
         String[] tmp=originCommand.split(" ",2);
         switch (tmp.length){
             case 1:{
@@ -25,18 +28,25 @@ public class ImplCmdTranslator implements CommandTransable{
                 }
             }
             case 2:{
-                String action;
-                switch (tmp[0]) {
-                    case Command.SETACTOR:{
-                        action=Command.SETACTOR;
+                String action=tmp[0];
+                switch (action) {
+                    case Command.SETACTOR:
                         break;
-                    }case Command.SETTAG:{
-                        action=Command.SETTAG;
+                    case Command.SETTAG:
                         break;
-                    }default: {
-                        action = null;
+                    case Command.WAIT:
+                        break;
+                    default: {
+                        return Command.NULL;
                     }
+                }
+                if(tmp[1].contains(","))
+                    return new Command(action,getParam(tmp[1]));
+                else return new Command(action,Integer.parseInt(tmp[1]));
             }
+        }
+        }catch (NumberFormatException e){
+            Log.e("unexpected command",e);
         }
         return Command.NULL;
     }
