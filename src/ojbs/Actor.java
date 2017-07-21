@@ -18,7 +18,6 @@ public class Actor extends Obj {
 
     public BufferedImage getImage() {
         return image;
-        
     }
 
     public void setImage(BufferedImage image) {

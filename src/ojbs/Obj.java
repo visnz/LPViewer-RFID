@@ -16,6 +16,10 @@ public abstract class Obj {
         this.description = description;
     }
 
+    public Obj(Point waypoint) {
+        this.waypoint = waypoint;
+    }
+
     public Point getWaypoint() {
         return waypoint;
     }
@@ -25,6 +29,7 @@ public abstract class Obj {
     }
 
     public String getDescription() {
+        if(description==null)return "";
         return description;
     }
 
