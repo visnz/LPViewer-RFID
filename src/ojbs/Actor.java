@@ -34,4 +34,12 @@ public class Actor extends Obj {
     public Dimension getFramesize() {
         return framesize;
     }
+
+    public int getWidth(){
+        return framesize.width;
+    }
+
+    public int getHeigth(){
+        return framesize.height;
+    }
 }

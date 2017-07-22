@@ -13,4 +13,7 @@ public class LocalPanel extends JPanel{
     public LocalPanel() {
         layers=new Stack<>();
     }
+    public void addLayer(Layer layer){
+        layers.add(layer);
+    }
 }

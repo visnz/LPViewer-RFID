@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by zyvis on 2017/7/22.
  */
-public class MainWindow {
+public class MainWindow{
     private JFrame mainWindow;
     private JMenuBar menuBar;
     private JMenu menuFile,menuEdit,menuView,menuPoint,menuAbout;

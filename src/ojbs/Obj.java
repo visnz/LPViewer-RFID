@@ -24,6 +24,14 @@ public abstract class Obj {
         return waypoint;
     }
 
+    public int getX(){
+        return waypoint.x;
+    }
+
+    public int getY(){
+        return waypoint.y;
+    }
+
     public void setWaypoint(Point waypoint) {
         this.waypoint = waypoint;
     }
