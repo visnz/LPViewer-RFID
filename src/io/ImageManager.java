@@ -51,13 +51,22 @@ public class ImageManager {
             }
         }
     }
-
-    public BufferedImage fecth(String Key){
+    public synchronized void importImage(String fileString) throws IOException {
+        this.importImage(null,fileString);
+    }
+    public BufferedImage get(String Key){
         try{
             return imageTable.get(Key);
         }
         catch (NullPointerException e){
             return null;
         }
+    }
+    public void changeKeyName(String origin,String newer)throws Exception{
+        if(!imageTable.containsKey(origin))throw new Exception("origin key no found");
+        if(origin.equals(newer))return;
+        imageTable.put(newer,imageTable.get(origin));
+        imageTable.remove(origin);
+
     }
 }

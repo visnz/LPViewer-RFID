@@ -22,7 +22,7 @@ public class Layer<T extends Actor> extends JPanel {
     }
 
     public void drawNewObj(Point waypoint,String ImageKey){
-        Actor tmp=new Actor(waypoint,null,imageManager.fecth(ImageKey));
+        Actor tmp=new Actor(waypoint,null,imageManager.get(ImageKey));
         objlist.add((T)tmp);
     }
 

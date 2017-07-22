@@ -1,10 +1,7 @@
 import base.IO.log.PrintLogcat;
+import core.Core;
 import core.VisntoolCore;
 import core.installException;
-import io.ImageManager;
-import visual.dialog.IMdialog;
-
-import java.io.IOException;
 
 /**
  * Created by zyvis on 2017/7/21.
@@ -19,17 +16,11 @@ public class main {
         }
 
 //        new MainWindow();
-        ImageManager imageManager=new ImageManager();
-        try {
-            imageManager.importImage("actor","src/io/imgsrc/actor.png");
-            imageManager.importImage("base","src/io/imgsrc/base.jpg");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
 
+        new Core().start();
 
-        new IMdialog(imageManager);
+
 
 //        ImplCmdTranslator implCmdTranslator=new ImplCmdTranslator();
 //        SocketThread socketThread=new SocketThread(10086);
