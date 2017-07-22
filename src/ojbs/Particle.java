@@ -11,6 +11,6 @@ import java.awt.image.BufferedImage;
 public class Particle extends Actor {
     private int age=255;
     public Particle(Point waypoint, BufferedImage image) {
-        super(waypoint, null, image);
+        super(waypoint,  image);
     }
 }

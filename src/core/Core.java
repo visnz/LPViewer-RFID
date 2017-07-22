@@ -38,4 +38,8 @@ public class Core extends Thread {
             e.printStackTrace();
         }
     }
+
+    public static String getAbout() {
+        return "<html>Location Project Result Print Window by visnz <br><br> Feedback to visn0518@gmail.com <br> scr https://github.com/visnz/LPViewer-RFID.git</html>";
+    }
 }

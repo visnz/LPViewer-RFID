@@ -25,8 +25,8 @@ public class Actor extends Obj {
         this.framesize=new Dimension(image.getWidth(),image.getHeight());
     }
 
-    public Actor(Point waypoint, String description, BufferedImage image) {
-        super(waypoint, description);
+    public Actor(Point waypoint, BufferedImage image) {
+        super(waypoint);
         this.image = image;
         this.framesize=new Dimension(image.getWidth(),image.getHeight());
     }

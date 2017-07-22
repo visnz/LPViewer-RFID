@@ -41,7 +41,7 @@ public class ImageManager {
             if(fileString.endsWith(e)){
                 fileInputStream=new FileInputStream(fileString);
                 BufferedImage tmp= ImageIO.read(fileInputStream);
-                if(key==null)key=fileString;
+                if(key==null)key=getName(fileString);
                 imageTable.put(key,tmp);
                 //待修改
                 fileInputStream.close();
@@ -67,6 +67,16 @@ public class ImageManager {
         if(origin.equals(newer))return;
         imageTable.put(newer,imageTable.get(origin));
         imageTable.remove(origin);
-
+    }
+    public String getName(String filepath){
+        int start=0;
+        for(int i=0;i<filepath.length();i++){
+            if(filepath.charAt(i)=='/'||filepath.charAt(i)=='\\'){
+                start=i;
+            }
+        }
+        int end=filepath.length();
+        if(filepath.contains("."))end=filepath.indexOf(".");
+        return filepath.substring(++start,end);
     }
 }

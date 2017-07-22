@@ -16,7 +16,7 @@ import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.IOException;
 
-public class IMdialog extends JDialog {
+public class IMDialog extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
     private JList list;
@@ -36,7 +36,7 @@ public class IMdialog extends JDialog {
 
     private JFileChooser jFileChooser = new JFileChooser();
 
-    public IMdialog(final ImageManager imageManager) {
+    public IMDialog(final ImageManager imageManager) {
         imageManagerToList = imageManager;
         setContentPane(contentPane);
         setModal(true);
