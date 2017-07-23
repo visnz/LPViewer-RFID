@@ -59,6 +59,7 @@ public class SocketTrans {
 
         mode=Client;
         try {
+            Log.d("try to connect remote port");
             insideSocket=new Socket(IP,port);
             Log.d("connection successfully : "+IP.toString()+":"+port);
         } catch (IOException e) {
@@ -160,5 +161,18 @@ public class SocketTrans {
     protected void finalize() throws Throwable {
         super.finalize();
         scanner.close();
+    }
+
+    public void disconnect(){
+        try {
+            insideSocket.close();
+            insideSocket.shutdownOutput();
+            insideListener.close();
+            Log.i("socket disconnect");
+        } catch (IOException e) {
+            Log.e("socket disconnect failed",e);
+        }catch (NullPointerException e1){
+            Log.w("socket not found ",e1);
+        }
     }
 }

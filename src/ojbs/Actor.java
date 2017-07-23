@@ -16,30 +16,39 @@ public class Actor extends Obj {
     private BufferedImage image;
     private Dimension framesize;
 
+    public int getRenderPointX() {
+        return getX() - framesize.width / 2;
+    }
+
+    public int getRenderPointY() {
+        return getY() - framesize.height / 2;
+    }
+
     public BufferedImage getImage() {
         return image;
     }
 
     public void setImage(BufferedImage image) {
         this.image = image;
-        this.framesize=new Dimension(image.getWidth(),image.getHeight());
+        this.framesize = new Dimension(image.getWidth(), image.getHeight());
     }
 
     public Actor(Point waypoint, BufferedImage image) {
         super(waypoint);
-        this.image = image;
-        this.framesize=new Dimension(image.getWidth(),image.getHeight());
+        setImage(image);
     }
 
     public Dimension getFramesize() {
         return framesize;
     }
 
-    public int getWidth(){
+    public int getWidth() {
         return framesize.width;
     }
 
-    public int getHeigth(){
+    public int getHeigth() {
         return framesize.height;
     }
+
+
 }

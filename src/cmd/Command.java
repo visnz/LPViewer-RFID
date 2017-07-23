@@ -25,22 +25,46 @@ public class Command {
         Others
     }
     public static final Command NULL = new Command(null);
-    public static final String SETACTOR="setactor";
-    public static final String SETTAG="settag";
-    public static final String WAIT="wait";
-    public static final String END="end";
-    public static final String CLEAR="clear";
+    public static final String PAIR_SETACTOR ="setactor";
+    public static final String PAIR_SETTAG ="settag";
+    public static final String SINGLE_WAIT ="wait";
+
+    public String getAction() {
+        return action;
+    }
 
     /**
      * 此String指定了行为
      */
     private String action;
+
+
     private Parameter parameter;
     private Integer param_single;
     private Point param_pair;
     private String param_string;
+
+    public Integer getParam_single() {
+        return param_single;
+    }
+
+    public Point getParam_pair() {
+        return param_pair;
+    }
+
+    public String getParam_string() {
+        return param_string;
+    }
+
+    public Object getParam_others() {
+        return param_others;
+    }
+
     private Object param_others;
 
+    public Parameter getParamType() {
+        return parameter;
+    }
     public Command(String action) {
         this.action = action;
         parameter=Parameter.None;

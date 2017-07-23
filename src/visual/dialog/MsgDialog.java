@@ -11,6 +11,14 @@ public class MsgDialog extends JDialog {
     private JButton buttonOK;
     private JLabel label;
 
+    public MsgDialog(String msg,Throwable tr) {
+        this("<html>"+msg+"<br>"+tr.getMessage()+"</html>");
+    }
+
+    public MsgDialog(Throwable tr) {
+        this(tr.getMessage());
+    }
+
     public MsgDialog(String msg) {
         setContentPane(contentPane);
         setModal(true);

@@ -1,6 +1,6 @@
 √ loadfile
 √ IPadress接口
-setDuration()设置渲染间隔
+√ setDuration()设置渲染间隔
 缩放
 网络传图
 
@@ -9,7 +9,8 @@ setDuration()设置渲染间隔
 从socket连接到渲染层
 渲染层的透明度渲染
 
-图层管理器
+重复渲染的优化
+图像管理器中对于tag actor的选项（代理映射需要修改）
 
 bug：
-右键菜单消失后的渲染
+√ 右键菜单消失后的渲染 - 分离图层

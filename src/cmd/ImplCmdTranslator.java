@@ -19,10 +19,6 @@ public class ImplCmdTranslator implements CommandTransable{
         switch (tmp.length){
             case 1:{
                 switch (tmp[0]) {
-                    case Command.END:
-                        return new Command(Command.END);
-                    case Command.CLEAR:
-                        return new Command(Command.CLEAR);
                     default:
                         return Command.NULL;
                 }
@@ -30,11 +26,11 @@ public class ImplCmdTranslator implements CommandTransable{
             case 2:{
                 String action=tmp[0];
                 switch (action) {
-                    case Command.SETACTOR:
+                    case Command.PAIR_SETACTOR:
                         break;
-                    case Command.SETTAG:
+                    case Command.PAIR_SETTAG:
                         break;
-                    case Command.WAIT:
+                    case Command.SINGLE_WAIT:
                         break;
                     default: {
                         return Command.NULL;

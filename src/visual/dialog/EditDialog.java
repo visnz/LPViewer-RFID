@@ -10,6 +10,7 @@ public class EditDialog extends JDialog {
     private JButton buttonOK;
     private JButton buttonCancel;
     private JTextField textField2;
+    private JPanel outside;
 
     public String getRelpy() {
         return relpy;
@@ -17,7 +18,8 @@ public class EditDialog extends JDialog {
 
     private String relpy;
 
-    public EditDialog(String init) {
+    public EditDialog(String title,String init) {
+        outside.setBorder(BorderFactory.createTitledBorder(title));
         setContentPane(contentPane);
         setModal(true);
         this.setResizable(false);

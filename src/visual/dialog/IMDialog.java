@@ -100,7 +100,7 @@ public class IMDialog extends JDialog {
     }
 
     private void callEditDialog(){
-        editDialog=new EditDialog((String)list.getSelectedValue());
+        editDialog=new EditDialog("key Name",(String)list.getSelectedValue());
         try {
             imageManagerToList.changeKeyName((String) list.getSelectedValue(),editDialog.getRelpy());
             getList();

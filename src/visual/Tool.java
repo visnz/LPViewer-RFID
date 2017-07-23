@@ -1,7 +1,5 @@
 package visual;
 
-import base.IO.log.Log;
-
 import java.awt.*;
 
 /**
@@ -22,10 +20,17 @@ public final class Tool {
     public static void MidPlay(Component component){
 
         Dimension frameSize=new Dimension(component.getWidth(),component.getHeight());
-        Log.d(frameSize.toString());
         Dimension screenSize=Toolkit.getDefaultToolkit().getScreenSize();
-        Log.d(screenSize.toString());
         component.setBounds((screenSize.width-frameSize.width)/2,(screenSize.height-frameSize.height)/2,frameSize.width,frameSize.height);
         //component.setVisible(true);
     }
+    public static void RightMidPlay(Component component){
+
+        Dimension frameSize=new Dimension(component.getWidth(),component.getHeight());
+        Dimension screenSize=Toolkit.getDefaultToolkit().getScreenSize();
+        component.setBounds(screenSize.width-frameSize.width,(screenSize.height-frameSize.height)/2,frameSize.width,frameSize.height);
+        //component.setVisible(true);
+    }
+
+
 }

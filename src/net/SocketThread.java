@@ -44,6 +44,7 @@ public class SocketThread extends Thread  {
      */
     public SocketThread(int port) {
         socketTrans=new SocketTrans(port);
+        Log.d("SocketThread listen : "+port);
     }
 
     /**
@@ -58,6 +59,7 @@ public class SocketThread extends Thread  {
      */
     public SocketThread(String address,int port){
         socketTrans=new SocketTrans(address,port);
+        Log.d("SocketThread link : "+address+":"+port);
     }
 
     @Override
@@ -73,5 +75,9 @@ public class SocketThread extends Thread  {
                 continue;
             }
         }
+    }
+
+    public void disconnect(){
+        socketTrans.disconnect();
     }
 }
