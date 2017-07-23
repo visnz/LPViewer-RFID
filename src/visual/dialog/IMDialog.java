@@ -1,6 +1,7 @@
 package visual.dialog;
 
 import base.IO.log.Log;
+import core.Core;
 import io.ImageManager;
 import visual.Tool;
 
@@ -29,6 +30,8 @@ public class IMDialog extends JDialog {
     private JButton deleteButton;
     private JPanel inbuttons;
     private JPanel picbow;
+    private JComboBox comboBox1;
+    private JButton setAsButton;
     private ImageManager imageManagerToList;
     private EditDialog editDialog;
     private Image tmpImage;
@@ -43,14 +46,16 @@ public class IMDialog extends JDialog {
         setupJFileChooser();
         setupEditDialog();
         setupDeleteDialog();
+        setupSetas();
         getList();
+
 
 
         list.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
                 Log.v("valueChanged" + " " + list.getModel().getElementAt(list.getSelectedIndex()));
-                tmpImage = imageManagerToList.get((String) list.getModel().getElementAt(list.getSelectedIndex()));
+                tmpImage = imageManagerToList.getImageTable().get(list.getModel().getElementAt(list.getSelectedIndex()));
                 //Log.d(tmpImage.toString());
                 picbow.repaint();
             }
@@ -76,6 +81,15 @@ public class IMDialog extends JDialog {
         this.pack();
         Tool.MidPlay(this);
         this.setVisible(true);
+    }
+
+    private void setupSetas() {
+        comboBox1.addItem(ImageManager.Type.ACTOR);
+        comboBox1.addItem(ImageManager.Type.TAG);
+        comboBox1.addItem(ImageManager.Type.BASE);
+        setAsButton.addActionListener(e -> {
+            Core.getGlobalImageManager().changeTypePoint((ImageManager.Type)comboBox1.getSelectedItem(), (String) list.getSelectedValue());
+        });
     }
 
     private void setupDeleteDialog() {

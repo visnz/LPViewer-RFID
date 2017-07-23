@@ -2,36 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37cd349d-4c33-48f5-882b-310aa4d60c3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/cmd/Command.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/cmd/Command.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/cmd/ImplCmdRunner$1.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/cmd/ImplCmdRunner$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/cmd/ImplCmdRunner.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/cmd/ImplCmdRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/cmd/ImplCmdTranslator.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/cmd/ImplCmdTranslator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/core/Core.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/core/Core.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/net/SocketThread.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/net/SocketThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/net/SocketTrans.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/net/SocketTrans.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/ojbs/Actor.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/ojbs/Actor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/io/ImageManager.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/io/ImageManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/MainWindow$1.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/MainWindow$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/MainWindow$2.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/MainWindow$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/MainWindow$3.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/MainWindow$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/MainWindow.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/MainWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/Tool.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/Tool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/EditDialog$1.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/EditDialog$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/EditDialog.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/EditDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$1.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$2.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$3.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$4.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$5.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/IMdialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/MsgDialog$1.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/MsgDialog$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/MsgDialog.class" afterPath="$PROJECT_DIR$/out/production/LPViewer-RFID/visual/dialog/MsgDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cmd/Command.java" afterPath="$PROJECT_DIR$/src/cmd/Command.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cmd/ImplCmdRunner.java" afterPath="$PROJECT_DIR$/src/cmd/ImplCmdRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cmd/ImplCmdTranslator.java" afterPath="$PROJECT_DIR$/src/cmd/ImplCmdTranslator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/Core.java" afterPath="$PROJECT_DIR$/src/core/Core.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/SocketThread.java" afterPath="$PROJECT_DIR$/src/net/SocketThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/SocketTrans.java" afterPath="$PROJECT_DIR$/src/net/SocketTrans.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ojbs/Actor.java" afterPath="$PROJECT_DIR$/src/ojbs/Actor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visual/MainWindow.java" afterPath="$PROJECT_DIR$/src/visual/MainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visual/Tool.java" afterPath="$PROJECT_DIR$/src/visual/Tool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visual/dialog/EditDialog.form" afterPath="$PROJECT_DIR$/src/visual/dialog/EditDialog.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visual/dialog/EditDialog.java" afterPath="$PROJECT_DIR$/src/visual/dialog/EditDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/ImageManager.java" afterPath="$PROJECT_DIR$/src/io/ImageManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visual/dialog/IMDialog.form" afterPath="$PROJECT_DIR$/src/visual/dialog/IMDialog.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visual/dialog/IMDialog.java" afterPath="$PROJECT_DIR$/src/visual/dialog/IMDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visual/dialog/MsgDialog.java" afterPath="$PROJECT_DIR$/src/visual/dialog/MsgDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist" afterPath="$PROJECT_DIR$/todolist" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,39 +31,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Command.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/cmd/Command.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="238">
-                    <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-                    <folding>
-                      <element signature="e#581#582#0" expanded="true" />
-                      <element signature="e#610#611#0" expanded="true" />
-                      <element signature="e#846#847#0" expanded="true" />
-                      <element signature="e#881#882#0" expanded="true" />
-                      <element signature="e#917#918#0" expanded="true" />
-                      <element signature="e#950#951#0" expanded="true" />
-                      <element signature="e#989#990#0" expanded="true" />
-                      <element signature="e#1024#1025#0" expanded="true" />
-                      <element signature="e#1063#1064#0" expanded="true" />
-                      <element signature="e#1098#1099#0" expanded="true" />
-                      <element signature="e#1171#1172#0" expanded="true" />
-                      <element signature="e#1203#1204#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -95,30 +49,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImplCmdTranslator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cmd/ImplCmdTranslator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/visual/MainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
-              <caret line="173" column="11" lean-forward="true" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/imgsrc/base.jpg">
           <provider selected="true" editor-type-id="images">
@@ -126,12 +56,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LPViewer-RFID.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LPViewer-RFID.iml">
+      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visual/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="226">
+              <caret line="139" column="15" lean-forward="true" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/Core.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-498">
+              <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,10 +83,71 @@
       <file leaf-file-name="todolist" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todolist">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visual/dialog/IMDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1467">
+              <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5443#5953#0" expanded="true" />
+                <element signature="e#5952#5953#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/ImageManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#2592#2593#0" expanded="true" />
+                <element signature="e#2642#2643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketTrans.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/SocketTrans.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1731">
+              <caret line="172" column="48" lean-forward="true" selection-start-line="172" selection-start-column="48" selection-end-line="172" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/SocketThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1427">
+              <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+              <folding>
+                <element signature="e#1794#1795#0" expanded="true" />
+                <element signature="e#1834#1835#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMDialog.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visual/dialog/IMDialog.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -166,6 +171,8 @@
       <find>draw</find>
       <find>Log</find>
       <find>panel</find>
+      <find>paint</find>
+      <find>setas</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,7 +213,6 @@
         <option value="$PROJECT_DIR$/src/visual/dialog/SurelyDialog.java" />
         <option value="$PROJECT_DIR$/src/Cores.java" />
         <option value="$PROJECT_DIR$/src/visual/dialog/IMdialog.java" />
-        <option value="$PROJECT_DIR$/src/io/ImageManager.java" />
         <option value="$PROJECT_DIR$/src/visual/LocalPanel.java" />
         <option value="$PROJECT_DIR$/src/ojbs/Obj.java" />
         <option value="$PROJECT_DIR$/src/ojbs/Particle.java" />
@@ -215,7 +221,6 @@
         <option value="$PROJECT_DIR$/src/ojbs/Actor.java" />
         <option value="$PROJECT_DIR$/src/visual/dialog/EditDialog.form" />
         <option value="$PROJECT_DIR$/src/visual/dialog/EditDialog.java" />
-        <option value="$PROJECT_DIR$/src/visual/dialog/IMDialog.java" />
         <option value="$PROJECT_DIR$/src/visual/dialog/MsgDialog.java" />
         <option value="$PROJECT_DIR$/src/net/SocketThread.java" />
         <option value="$PROJECT_DIR$/src/visual/Tool.java" />
@@ -226,8 +231,11 @@
         <option value="$PROJECT_DIR$/src/visual/dialog/LogDialog.java" />
         <option value="$PROJECT_DIR$/src/cmd/Command.java" />
         <option value="$PROJECT_DIR$/src/cmd/ImplCmdTranslator.java" />
-        <option value="$PROJECT_DIR$/src/visual/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/cmd/ImplCmdRunner.java" />
+        <option value="$PROJECT_DIR$/src/visual/dialog/IMDialog.form" />
+        <option value="$PROJECT_DIR$/src/io/ImageManager.java" />
+        <option value="$PROJECT_DIR$/src/visual/dialog/IMDialog.java" />
+        <option value="$PROJECT_DIR$/src/visual/MainWindow.java" />
         <option value="$PROJECT_DIR$/todolist" />
       </list>
     </option>
@@ -235,7 +243,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="45" />
     <option name="y" value="62" />
-    <option name="width" value="1138" />
+    <option name="width" value="1741" />
     <option name="height" value="993" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -355,6 +363,36 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="dialog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurelyDialog" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LPViewer-RFID" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LPViewer-RFID" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MsgDialog" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -544,6 +582,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cmd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LPViewer-RFID" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LPViewer-RFID" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -765,7 +817,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="62" width="1138" height="993" extended-state="0" />
+    <frame x="45" y="62" width="1741" height="993" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -778,7 +830,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40745053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.216141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13860798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -901,11 +953,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/visual/dialog/IMDialog.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/visual/dialog/ErrorDialog.java" />
     <entry file="file://$PROJECT_DIR$/src/visual/dialog/ErrorDialog.form" />
     <entry file="file://$PROJECT_DIR$/src/visual/dialog/SurelyDialog.form">
@@ -978,16 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/visual/dialog/IMDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="102" column="43" lean-forward="false" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/net/InetAddress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1052,17 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/ImageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding>
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/visual/Layer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1075,25 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/SocketThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
-          <folding>
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/SocketTrans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="172" column="48" lean-forward="true" selection-start-line="172" selection-start-column="48" selection-end-line="172" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1111,22 +1118,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Core.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="914">
-          <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#2452#2453#0" expanded="true" />
-            <element signature="e#2493#2494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/visual/dialog/LogDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1136,6 +1127,22 @@
             <element signature="e#820#1102#0" expanded="true" />
             <element signature="e#1101#1102#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmd/ImplCmdTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LPViewer-RFID.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,30 +1167,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cmd/ImplCmdTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/core/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="-498">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/SocketThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1427">
+          <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+          <folding>
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visual/dialog/IMDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/SocketTrans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1731">
+          <caret line="172" column="48" lean-forward="true" selection-start-line="172" selection-start-column="48" selection-end-line="172" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LPViewer-RFID.iml">
+    <entry file="file://$PROJECT_DIR$/src/io/ImageManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="174">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#2592#2593#0" expanded="true" />
+            <element signature="e#2642#2643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visual/dialog/IMDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1467">
+          <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5443#5953#0" expanded="true" />
+            <element signature="e#5952#5953#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/visual/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1820">
-          <caret line="173" column="11" lean-forward="true" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
+        <state relative-caret-position="226">
+          <caret line="139" column="15" lean-forward="true" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1207,8 +1257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todolist">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

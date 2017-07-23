@@ -6,6 +6,7 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Hashtable;
 
 /**
@@ -15,6 +16,19 @@ import java.util.Hashtable;
  */
 public class ImageManager {
 
+
+    public enum Type{
+        ACTOR("actor"),TAG("tag"),BASE("base");
+        String name;
+        Type(String s){
+            name=s;
+        }
+        public String getName(){
+            return name;
+        }
+    }
+
+    private HashMap<String,String> proxyTable;
     private String[] picsFormatFilter;
 
     public Hashtable<String, BufferedImage> getImageTable() {
@@ -25,6 +39,10 @@ public class ImageManager {
     private FileInputStream fileInputStream;
 
     public ImageManager() {
+        proxyTable=new HashMap<>();
+        proxyTable.put(Type.ACTOR.getName(),"actor");
+        proxyTable.put(Type.TAG.getName(),"tag");
+        proxyTable.put(Type.BASE.getName(),"base");
         picsFormatFilter=new String[]{".png",".jpg"};
     }
 
@@ -56,7 +74,7 @@ public class ImageManager {
     }
     public BufferedImage get(String Key){
         try{
-            return imageTable.get(Key);
+            return imageTable.get(proxyTable.get(Key));
         }
         catch (NullPointerException e){
             return null;
@@ -67,6 +85,9 @@ public class ImageManager {
         if(origin.equals(newer))return;
         imageTable.put(newer,imageTable.get(origin));
         imageTable.remove(origin);
+    }
+    public void changeTypePoint(Type type,String key){
+        proxyTable.put(type.getName(),key);
     }
     public String getName(String filepath){
         int start=0;
