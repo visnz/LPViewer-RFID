@@ -26,7 +26,7 @@ public class Layer<T extends Actor> extends JPanel {
         Log.d("layer add new obj, now obj: "+objlist.size());
         //repaint();
     }
-
+    public void offset(){}
 //    @Override
 //    public void paint(Graphics g) {
 //        super.paint(g);
