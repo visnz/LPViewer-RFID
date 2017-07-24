@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: lib/VisnTool_1.0_release.jar
+Main-Class: main
+

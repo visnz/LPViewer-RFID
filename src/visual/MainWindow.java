@@ -127,8 +127,8 @@ public class MainWindow {
         menu_NP.addActionListener(e -> {
             Layer<Actor> baselayer = new Layer<>();
             baselayer.drawNewObj(new Actor(new Point(
-                            (int) mainWindow.getPreferredSize().getWidth() / 2,
-                            (int) (mainWindow.getPreferredSize().getHeight() / 2))
+                    (int) mainWindow.getPreferredSize().getWidth() / 2,
+                    (int) (mainWindow.getPreferredSize().getHeight() / 2))
                     , Core.getGlobalImageManager().get("base")));
             layerList.add(baselayer);
             selectedLayer=baselayer;

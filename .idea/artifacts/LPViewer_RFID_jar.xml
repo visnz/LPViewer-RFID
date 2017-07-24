@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LPViewer-RFID:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LPViewer_RFID_jar</output-path>
+    <root id="archive" name="LPViewer-RFID.jar">
+      <element id="module-output" name="LPViewer-RFID" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/VisnTool_1.0_release.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

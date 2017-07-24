@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_lpviewer-rfid" default="compile.module.lpviewer-rfid">
+  <dirname property="module.lpviewer-rfid.basedir" file="${ant.file.module_lpviewer-rfid}"/>
+  
+  <property name="module.jdk.home.lpviewer-rfid" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.lpviewer-rfid" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.lpviewer-rfid" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.lpviewer-rfid" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="lpviewer-rfid.output.dir" value="${module.lpviewer-rfid.basedir}/out/production/LPViewer-RFID"/>
+  <property name="lpviewer-rfid.testoutput.dir" value="${module.lpviewer-rfid.basedir}/out/test/LPViewer-RFID"/>
+  
+  <path id="lpviewer-rfid.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="lpviewer-rfid.module.production.classpath">
+    <path refid="${module.jdk.classpath.lpviewer-rfid}"/>
+    <path refid="library.visntool_1.0_release.classpath"/>
+  </path>
+  
+  <path id="lpviewer-rfid.runtime.production.module.classpath">
+    <pathelement location="${lpviewer-rfid.output.dir}"/>
+    <path refid="library.visntool_1.0_release.classpath"/>
+  </path>
+  
+  <path id="lpviewer-rfid.module.classpath">
+    <path refid="${module.jdk.classpath.lpviewer-rfid}"/>
+    <pathelement location="${lpviewer-rfid.output.dir}"/>
+    <path refid="library.visntool_1.0_release.classpath"/>
+  </path>
+  
+  <path id="lpviewer-rfid.runtime.module.classpath">
+    <pathelement location="${lpviewer-rfid.testoutput.dir}"/>
+    <pathelement location="${lpviewer-rfid.output.dir}"/>
+    <path refid="library.visntool_1.0_release.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.lpviewer-rfid">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.lpviewer-rfid">
+    <patternset refid="excluded.from.module.lpviewer-rfid"/>
+  </patternset>
+  
+  <path id="lpviewer-rfid.module.sourcepath">
+    <dirset dir="${module.lpviewer-rfid.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.lpviewer-rfid" depends="compile.module.lpviewer-rfid.production,compile.module.lpviewer-rfid.tests" description="Compile module LPViewer-RFID"/>
+  
+  <target name="compile.module.lpviewer-rfid.production" depends="register.custom.compilers" description="Compile module LPViewer-RFID; production classes">
+    <mkdir dir="${lpviewer-rfid.output.dir}"/>
+    <javac2 destdir="${lpviewer-rfid.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.lpviewer-rfid}/javac">
+      <compilerarg line="${compiler.args.lpviewer-rfid}"/>
+      <bootclasspath refid="lpviewer-rfid.module.bootclasspath"/>
+      <classpath refid="lpviewer-rfid.module.production.classpath"/>
+      <src refid="lpviewer-rfid.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.lpviewer-rfid"/>
+    </javac2>
+    
+    <copy todir="${lpviewer-rfid.output.dir}">
+      <fileset dir="${module.lpviewer-rfid.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.lpviewer-rfid.tests" depends="register.custom.compilers,compile.module.lpviewer-rfid.production" description="compile module LPViewer-RFID; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.lpviewer-rfid" description="cleanup module">
+    <delete dir="${lpviewer-rfid.output.dir}"/>
+    <delete dir="${lpviewer-rfid.testoutput.dir}"/>
+  </target>
+</project>
