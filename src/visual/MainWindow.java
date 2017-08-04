@@ -64,7 +64,7 @@ public class MainWindow {
                     while (actorIterator.hasNext()) {
                         Actor tmpActor = actorIterator.next();
                         Log.v("draw actor index: " + actorindex++);
-                        g.drawImage(tmpActor.getImage(), tmpActor.getRenderPointX(), tmpActor.getRenderPointY(), null);
+                        g.drawImage(tmpActor.getImage(), tmpActor.getRenderPointX()+selectedLayer.getOffset().x, tmpActor.getRenderPointY()+selectedLayer.getOffset().y, null);
                     }
                 }catch (NullPointerException e){
                     Log.w("no basic panel",e);

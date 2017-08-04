@@ -4,6 +4,7 @@ import base.IO.log.Log;
 import ojbs.Actor;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.LinkedList;
 
 /**
@@ -15,7 +16,13 @@ public class Layer<T extends Actor> extends JPanel {
     }
 
     private LinkedList<T> objlist;
+
+    public Point getOffset() {
+        return offset;
+    }
+
     //private Iterator<T> iterator;
+    private Point offset;
 
     public Layer() {
         objlist =new LinkedList<>();
@@ -24,6 +31,9 @@ public class Layer<T extends Actor> extends JPanel {
     public void drawNewObj(Actor actor){
         objlist.add((T)actor);
         Log.d("layer add new obj, now obj: "+objlist.size());
+        if(objlist.size()==1){
+            offset=new Point(objlist.get(0).getRenderPointX(),objlist.get(0).getRenderPointY());
+        }
         //repaint();
     }
 
